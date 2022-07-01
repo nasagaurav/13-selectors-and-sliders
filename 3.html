@@ -1,0 +1,28 @@
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+<style>
+  .s1{background: red;height: 400px}
+  .s2{background: green;height: 400px}
+  .s3{background: blue;height: 400px}
+  .s4{background: silver;height: 400px}
+  .s5{background: cyan;height: 400px}
+  .s6{background: purple;height: 400px}
+</style>
+<div class="slider">
+  <div><h3 class="s1">1</h3></div>
+  <div><h3 class="s2">2</h3></div>
+  <div><h3 class="s3">3</h3></div>
+  <div><h3 class="s4">4</h3></div>
+  <div><h3 class="s5">5</h3></div>
+  <div><h3 class="s6">6</h3></div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$(".slider").slick({
+    autoplay:true,
+    autoplaySpeed:10,
+    infinite: true,
+  })
+</script>

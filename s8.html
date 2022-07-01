@@ -1,0 +1,36 @@
+<style>
+	body
+	{
+		text-align: center;
+	}
+	button
+	{
+		margin-bottom: 50px;
+	}
+	.slider
+	{
+		display: flex;
+		justify-content: center;
+		transition: 1s;
+	}
+	.slider img
+	{
+		width: 300px;
+	}
+	.b1:focus ~ .slider{transform: translateX(-0%);}
+	.b2:focus ~ .slider{transform: translateX(-300px);}
+	.b3:focus ~ .slider{transform: translateX(-600px);}
+</style>
+
+
+<button class="b1">1</button>
+<button class="b2">2</button>
+<button class="b3">3</button>
+
+
+
+<div class="slider">
+	<img class="img1" src="https://images.unsplash.com/photo-1464802686167-b939a6910659?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=850&q=80">
+	<img class="img2" src="https://images.unsplash.com/photo-1483354483454-4cd359948304?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80">
+	<img class="img3" src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=913&q=80">
+</div>

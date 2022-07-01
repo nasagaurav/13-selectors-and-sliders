@@ -1,0 +1,88 @@
+<style>
+	*
+	{
+		text-decoration: none;
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.main
+	{
+		background: black;
+	}
+	.main>li
+	{
+		display: inline-table;
+		padding: 10px;
+		position: relative;
+	}
+	.main>li>a
+	{
+		color: red;	
+	}
+	.main>li>ul
+	{
+		display: none;
+		position: absolute;
+		background: white;
+		box-shadow: 0 10px 10px black;
+		top: 80%;
+	}
+	.main>li:hover>ul
+	{
+		display: block;
+	}
+	.main>li>ul>li
+	{
+		padding: 10px;
+	}
+	.main>li>ul>li>a
+	{
+		color: green;
+		padding: 5px;
+	}
+</style>
+
+
+<ul class="main">
+	<li><a href="">home</a></li>
+	<li><a href="">contact</a></li>
+	<li><a href="">about</a></li>
+	<li>
+		<a href="">services</a>
+		<ul>
+			<li><a href="">service1</a></li>
+			<li><a href="">service2</a></li>
+			<li><a href="">service3</a></li>
+			<li><a href="">service4</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="">pofolios</a>
+		<ul>
+			<li><a href="">pofolio1</a></li>
+			<li><a href="">pofolio2</a></li>
+			<li><a href="">pofolio3</a></li>
+			<li><a href="">pofolio4</a></li>
+		</ul>
+	</li>
+	<li>
+		<a href="">gallerys</a>
+		<ul>
+			<li><a href="">gallery1</a></li>
+			<li><a href="">gallery2</a></li>
+			<li><a href="">gallery3</a></li>
+			<li><a href="">gallery4</a></li>
+		</ul>
+	</li>
+	
+</ul>
+
+
+
+
+
+
+
+
+

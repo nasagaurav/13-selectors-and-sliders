@@ -1,0 +1,49 @@
+<link rel="stylesheet" type="text/css" href="./slick/slick.css">
+<link rel="stylesheet" type="text/css" href="./slick/slick-theme.css">
+
+<style>
+  .custom-item img
+  {
+    width: 100%;
+  
+  }
+  .slick-dots *
+  {
+    /*background: red;*/
+  }
+</style>
+
+<div class="slider">
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz1.png">
+  </div>
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz2.png">
+  </div>
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz3.png">
+  </div>
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz1.png">
+  </div>
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz2.png">
+  </div>
+  <div class="custom-item">
+    <img src="https://kenwheeler.github.io/slick/img/fonz3.png">
+  </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="./slick/slick.js" type="text/javascript" charset="utf-8"></script>
+
+<script type="text/javascript">
+	$('.slider').slick({
+  infinite: true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  autoplay: true,
+  speed:500,
+  dots: true,
+
+});
+</script>

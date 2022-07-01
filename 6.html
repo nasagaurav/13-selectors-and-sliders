@@ -1,0 +1,75 @@
+<meta name="viewport" content="width=device-width">
+
+<style>
+	.team
+	{
+		background: silver;
+		padding: 2%;
+		text-align: center;
+	}
+	.team .flex
+	{
+		display: flex;
+	}
+	.team .flex .item
+	{
+		width: 21%;
+		padding: 1%;
+		margin: 1%;
+		background: white;
+		box-shadow: 0 10px 10px black;
+	}
+	.team .flex .item .image
+	{
+		padding: 25%;
+		background: black;
+		color: white;
+	}
+
+	@media (max-width: 768px)
+	{
+		.team .flex
+		{
+			flex-flow: column;
+		}
+		.team .flex .item
+		{
+			width: auto;
+		}
+	}
+</style>
+<div class="team">
+	<h1>meet the team</h1>
+
+	<div class="flex">
+		<div class="item">
+			<div class="image">100X100</div>
+			<h3>employee</h3>
+			<h4>Designer</h4>
+			<h5>john@doe</h5>
+			<button>contact</button>
+		</div>
+		<div class="item">
+			<div class="image">100X100</div>
+			<h3>employee</h3>
+			<h4>Designer</h4>
+			<h5>john@doe</h5>
+			<button>contact</button>
+		</div>
+		<div class="item">
+			<div class="image">100X100</div>
+			<h3>employee</h3>
+			<h4>Designer</h4>
+			<h5>john@doe</h5>
+			<button>contact</button>
+		</div>
+		<div class="item">
+			<div class="image">100X100</div>
+			<h3>employee</h3>
+			<h4>Designer</h4>
+			<h5>john@doe</h5>
+			<button>contact</button>
+		</div>
+	
+	</div>
+</div>
